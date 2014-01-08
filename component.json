@@ -34,7 +34,9 @@
         "BeginTransaction": "components/BeginTransaction.coffee",
         "CommitTransaction": "components/CommitTransaction.coffee",
         "AddVertex": "components/AddVertex.coffee",
-        "AddEdge": "components/AddEdge.coffee"
+        "AddEdge": "components/AddEdge.coffee",
+        "Query": "components/Query.coffee",
+        "GetOrAddVertex": "components/GetOrAddVertex.coffee"
     }
   }
 }
