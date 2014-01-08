@@ -4,7 +4,7 @@
 noflo = require "noflo"
 unless noflo.isBrowser()
   gRex = require "grex"
-  
+
 go = require './GatedOperation'
 
 

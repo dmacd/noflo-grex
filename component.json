@@ -21,7 +21,8 @@
     "components/AddVertex.coffee",
     "components/AddEdge.coffee",
     "components/Query.coffee",
-    "components/GetOrAddVertex.coffee",
+      "components/GetOrAddVertex.coffee",
+      "components/GatedOperation.coffee",
     "index.js"
   ],
   "json": [
