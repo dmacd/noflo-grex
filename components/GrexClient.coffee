@@ -1,5 +1,8 @@
 noflo = require "noflo"
-gRex = require "grex"
+
+# HACK: since I havent found the proper way to do browser build yet
+unless noflo.isBrowser()
+  gRex = require "grex"
 
 #console.log("grex client loaded")
 
