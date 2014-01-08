@@ -1,9 +1,10 @@
+noflo = require "noflo"
+
 # HACK: since I havent found the proper way to do browser build yet
 unless noflo.isBrowser()
   gRex = require "grex"
 
 
-noflo = require "noflo"
 
 go = require './GatedOperation'
 
