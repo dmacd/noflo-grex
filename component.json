@@ -1,0 +1,32 @@
+{
+  "name": "noflo-core",
+  "description": "NoFlo gRex client",
+  "repo": "dmacd/noflo-grex",
+  "version": "0.0.1",
+  "author": {
+    "name": "Daniel MacDonald",
+    "email": "abstraction.barrier@gmail.com"
+  },
+  "keywords": [
+  ],
+  "dependencies": {
+    "noflo/noflo": "*",
+    "component/underscore": "*"
+  },
+  "scripts": [
+    "components/GrexClient.coffee",
+    "index.js"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+        "GrexClient": "components/GrexClient.coffee",
+        "BeginTransaction": "components/BeginTransaction.coffee",
+        "CommitTransaction": "components/CommitTransaction.coffee",
+        "AddVertex": "components/AddVertex.coffee",
+        "AddEdge": "components/AddEdge.coffee"
+    }
+  }
+}
