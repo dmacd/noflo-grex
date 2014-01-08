@@ -14,7 +14,14 @@
     "component/underscore": "*"
   },
   "scripts": [
+    "vendor/grex.js",
     "components/GrexClient.coffee",
+    "components/BeginTransaction.coffee",
+    "components/CommitTransaction.coffee",
+    "components/AddVertex.coffee",
+    "components/AddEdge.coffee",
+    "components/Query.coffee",
+    "components/GetOrAddVertex.coffee",
     "index.js"
   ],
   "json": [
